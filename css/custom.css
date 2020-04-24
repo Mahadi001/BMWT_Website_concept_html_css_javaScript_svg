@@ -1,0 +1,29 @@
+
+/* custom css */
+.dotstyle {
+	position: absolute;
+	top: 40%;
+	right: 20px;z-index: 9999;
+}
+.dotstyle li {
+	margin: 16px;
+	float:none;font-size: 10px;
+}
+
+.dotstyle-tooltip li a {
+    top: -60%;
+    left: -432%;
+	bottom: -55%;
+	background-color: #c44d4800;    width: 100px;text-align: right;
+}
+.dotstyle-tooltip li a::after{
+	
+	    border-top-color: #c44d4800;
+}
+.dotstyle-tooltip li.current {
+    border-color: #fff;
+    opacity: 0.2;
+}
+.dotstyle-tooltip li.current a {
+	visibility: hidden;
+}
